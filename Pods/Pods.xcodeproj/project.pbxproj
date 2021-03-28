@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CD5B2C8E38BDD8E873284425FC4A253 /* SDAutoLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 071B3B78097765A076025B93048C6B09 /* SDAutoLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		705AD3DFAC57691062F5CA7470346478 /* SDAutoLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CE1B828749E6B19601F32D1897F272 /* SDAutoLayout-dummy.m */; };
+		752DE421BF28A13C0429337C22F3BA3E /* UITableView+SDAutoTableViewCellHeight.h in Headers */ = {isa = PBXBuildFile; fileRef = 82E461F2C1503F17685F06D54AE040EA /* UITableView+SDAutoTableViewCellHeight.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		808A769EA1AECEA9A9886452B99E62D1 /* UITableView+SDAutoTableViewCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = C3104270020ED4A1CFFE19DC9641F896 /* UITableView+SDAutoTableViewCellHeight.m */; };
+		82911E0ADFAFD4A027A202CB166466BA /* Pods-SlideBarIndicatorViewProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0885E033C248382B0D2343C6CF195D42 /* Pods-SlideBarIndicatorViewProject-dummy.m */; };
+		BC39FD7051DCB309E10B46293BC23FBC /* UIView+SDAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C2CB4C834DE21DC8BC04FA8A811CF2 /* UIView+SDAutoLayout.m */; };
+		E6E62AFB00B7EF689C001E760CDE00C6 /* UIView+SDAutoLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 29CE405B8A0EB1C5C35D1AAD7F6C414E /* UIView+SDAutoLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4D97542C96A75B84EB1C2C270F19FCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0BEE83CF4F12364005DB0406E8D774C0;
+			remoteInfo = SDAutoLayout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		071B3B78097765A076025B93048C6B09 /* SDAutoLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAutoLayout.h; path = SDAutoLayoutDemo/SDAutoLayout/SDAutoLayout.h; sourceTree = "<group>"; };
+		0885E033C248382B0D2343C6CF195D42 /* Pods-SlideBarIndicatorViewProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SlideBarIndicatorViewProject-dummy.m"; sourceTree = "<group>"; };
+		08C2CB4C834DE21DC8BC04FA8A811CF2 /* UIView+SDAutoLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+SDAutoLayout.m"; path = "SDAutoLayoutDemo/SDAutoLayout/UIView+SDAutoLayout.m"; sourceTree = "<group>"; };
+		0DE01CDB2B4854E51A8A5B5A9EC6627A /* libPods-SlideBarIndicatorViewProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SlideBarIndicatorViewProject.a"; path = "libPods-SlideBarIndicatorViewProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A0AD9FE19B8E8A1E763255598A749EF /* libSDAutoLayout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSDAutoLayout.a; path = libSDAutoLayout.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		29CE405B8A0EB1C5C35D1AAD7F6C414E /* UIView+SDAutoLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+SDAutoLayout.h"; path = "SDAutoLayoutDemo/SDAutoLayout/UIView+SDAutoLayout.h"; sourceTree = "<group>"; };
+		4A14268A8880DBF594F2F2698179335D /* Pods-SlideBarIndicatorViewProject-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SlideBarIndicatorViewProject-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6B87B168FF457CEC959A9811AB05D8AF /* Pods-SlideBarIndicatorViewProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SlideBarIndicatorViewProject.release.xcconfig"; sourceTree = "<group>"; };
+		82E461F2C1503F17685F06D54AE040EA /* UITableView+SDAutoTableViewCellHeight.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+SDAutoTableViewCellHeight.h"; path = "SDAutoLayoutDemo/SDAutoLayout/UITableView+SDAutoTableViewCellHeight.h"; sourceTree = "<group>"; };
+		94F7FD2AEBF3D58B551A34C55F1EA041 /* SDAutoLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDAutoLayout-prefix.pch"; sourceTree = "<group>"; };
+		AF7273E5FF947124BFC48D44952EBB5D /* Pods-SlideBarIndicatorViewProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SlideBarIndicatorViewProject.debug.xcconfig"; sourceTree = "<group>"; };
+		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C3104270020ED4A1CFFE19DC9641F896 /* UITableView+SDAutoTableViewCellHeight.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+SDAutoTableViewCellHeight.m"; path = "SDAutoLayoutDemo/SDAutoLayout/UITableView+SDAutoTableViewCellHeight.m"; sourceTree = "<group>"; };
+		F390125CBD545AF4AB9C5151E3E8236F /* SDAutoLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDAutoLayout.xcconfig; sourceTree = "<group>"; };
+		F8CE1B828749E6B19601F32D1897F272 /* SDAutoLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SDAutoLayout-dummy.m"; sourceTree = "<group>"; };
+		FCE28AA796EC51E95DAED7771D5DA55D /* Pods-SlideBarIndicatorViewProject-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SlideBarIndicatorViewProject-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0BBAD4A82D519C94803EDB478AE82ECB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		454AB2C28A0EC306DF86554895A660F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		196B871CB4E9613776014BF0E1FD9975 /* Pods-SlideBarIndicatorViewProject */ = {
+			isa = PBXGroup;
+			children = (
+				4A14268A8880DBF594F2F2698179335D /* Pods-SlideBarIndicatorViewProject-acknowledgements.markdown */,
+				FCE28AA796EC51E95DAED7771D5DA55D /* Pods-SlideBarIndicatorViewProject-acknowledgements.plist */,
+				0885E033C248382B0D2343C6CF195D42 /* Pods-SlideBarIndicatorViewProject-dummy.m */,
+				AF7273E5FF947124BFC48D44952EBB5D /* Pods-SlideBarIndicatorViewProject.debug.xcconfig */,
+				6B87B168FF457CEC959A9811AB05D8AF /* Pods-SlideBarIndicatorViewProject.release.xcconfig */,
+			);
+			name = "Pods-SlideBarIndicatorViewProject";
+			path = "Target Support Files/Pods-SlideBarIndicatorViewProject";
+			sourceTree = "<group>";
+		};
+		374A0B5E3BCBE872159F556CB7C657B1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				196B871CB4E9613776014BF0E1FD9975 /* Pods-SlideBarIndicatorViewProject */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3FE72E44B5F1CB12FDE70C26CC46B0F9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F390125CBD545AF4AB9C5151E3E8236F /* SDAutoLayout.xcconfig */,
+				F8CE1B828749E6B19601F32D1897F272 /* SDAutoLayout-dummy.m */,
+				94F7FD2AEBF3D58B551A34C55F1EA041 /* SDAutoLayout-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SDAutoLayout";
+			sourceTree = "<group>";
+		};
+		641965D67593C806D301D2B7DB3AD690 /* SDAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				071B3B78097765A076025B93048C6B09 /* SDAutoLayout.h */,
+				82E461F2C1503F17685F06D54AE040EA /* UITableView+SDAutoTableViewCellHeight.h */,
+				C3104270020ED4A1CFFE19DC9641F896 /* UITableView+SDAutoTableViewCellHeight.m */,
+				29CE405B8A0EB1C5C35D1AAD7F6C414E /* UIView+SDAutoLayout.h */,
+				08C2CB4C834DE21DC8BC04FA8A811CF2 /* UIView+SDAutoLayout.m */,
+				3FE72E44B5F1CB12FDE70C26CC46B0F9 /* Support Files */,
+			);
+			name = SDAutoLayout;
+			path = SDAutoLayout;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				ABCDF8479A0506B3345CF7B496FE2F2D /* Pods */,
+				BEB898F0E43A3CD102C08ACF5B4476BA /* Products */,
+				374A0B5E3BCBE872159F556CB7C657B1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		ABCDF8479A0506B3345CF7B496FE2F2D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				641965D67593C806D301D2B7DB3AD690 /* SDAutoLayout */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BEB898F0E43A3CD102C08ACF5B4476BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0DE01CDB2B4854E51A8A5B5A9EC6627A /* libPods-SlideBarIndicatorViewProject.a */,
+				1A0AD9FE19B8E8A1E763255598A749EF /* libSDAutoLayout.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		95B48A188539629CB2C124999FE94920 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DF6235D677F80D0A930D8A180231693 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CD5B2C8E38BDD8E873284425FC4A253 /* SDAutoLayout.h in Headers */,
+				752DE421BF28A13C0429337C22F3BA3E /* UITableView+SDAutoTableViewCellHeight.h in Headers */,
+				E6E62AFB00B7EF689C001E760CDE00C6 /* UIView+SDAutoLayout.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0BEE83CF4F12364005DB0406E8D774C0 /* SDAutoLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C102A1F3A11EB3748EF94DB2C927BAEF /* Build configuration list for PBXNativeTarget "SDAutoLayout" */;
+			buildPhases = (
+				9DF6235D677F80D0A930D8A180231693 /* Headers */,
+				A0997A9BB34C0F1F1A419F04C432E1FE /* Sources */,
+				0BBAD4A82D519C94803EDB478AE82ECB /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDAutoLayout;
+			productName = SDAutoLayout;
+			productReference = 1A0AD9FE19B8E8A1E763255598A749EF /* libSDAutoLayout.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		90B9DACD27EB80C871E01E67ED2011B1 /* Pods-SlideBarIndicatorViewProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D34426CEF65AB24B68ACA689753BD4C6 /* Build configuration list for PBXNativeTarget "Pods-SlideBarIndicatorViewProject" */;
+			buildPhases = (
+				95B48A188539629CB2C124999FE94920 /* Headers */,
+				22C0ABEFB802A893C3D42F983118C466 /* Sources */,
+				454AB2C28A0EC306DF86554895A660F2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74CABF8A0A9A1D20A515E8C37BF0FB47 /* PBXTargetDependency */,
+			);
+			name = "Pods-SlideBarIndicatorViewProject";
+			productName = "Pods-SlideBarIndicatorViewProject";
+			productReference = 0DE01CDB2B4854E51A8A5B5A9EC6627A /* libPods-SlideBarIndicatorViewProject.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = BEB898F0E43A3CD102C08ACF5B4476BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90B9DACD27EB80C871E01E67ED2011B1 /* Pods-SlideBarIndicatorViewProject */,
+				0BEE83CF4F12364005DB0406E8D774C0 /* SDAutoLayout */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22C0ABEFB802A893C3D42F983118C466 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82911E0ADFAFD4A027A202CB166466BA /* Pods-SlideBarIndicatorViewProject-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0997A9BB34C0F1F1A419F04C432E1FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				705AD3DFAC57691062F5CA7470346478 /* SDAutoLayout-dummy.m in Sources */,
+				808A769EA1AECEA9A9886452B99E62D1 /* UITableView+SDAutoTableViewCellHeight.m in Sources */,
+				BC39FD7051DCB309E10B46293BC23FBC /* UIView+SDAutoLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74CABF8A0A9A1D20A515E8C37BF0FB47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SDAutoLayout;
+			target = 0BEE83CF4F12364005DB0406E8D774C0 /* SDAutoLayout */;
+			targetProxy = A4D97542C96A75B84EB1C2C270F19FCE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2D94852AACA99C65C50FADF5271D2077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F390125CBD545AF4AB9C5151E3E8236F /* SDAutoLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SDAutoLayout/SDAutoLayout-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SDAutoLayout;
+				PRODUCT_NAME = SDAutoLayout;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		61D33F596DB60D938C1548BDE4A96FB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F390125CBD545AF4AB9C5151E3E8236F /* SDAutoLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SDAutoLayout/SDAutoLayout-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SDAutoLayout;
+				PRODUCT_NAME = SDAutoLayout;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		779E001056664E99DDE87EFAD1536AE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF7273E5FF947124BFC48D44952EBB5D /* Pods-SlideBarIndicatorViewProject.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE01AF5D395AE305A54D518A9B774D2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CFC8DEA7B5326676BA33093221AAE4F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D4C128E5BAFE72ADBDC77A16714B4941 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B87B168FF457CEC959A9811AB05D8AF /* Pods-SlideBarIndicatorViewProject.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFC8DEA7B5326676BA33093221AAE4F4 /* Debug */,
+				BE01AF5D395AE305A54D518A9B774D2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C102A1F3A11EB3748EF94DB2C927BAEF /* Build configuration list for PBXNativeTarget "SDAutoLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D94852AACA99C65C50FADF5271D2077 /* Debug */,
+				61D33F596DB60D938C1548BDE4A96FB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D34426CEF65AB24B68ACA689753BD4C6 /* Build configuration list for PBXNativeTarget "Pods-SlideBarIndicatorViewProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				779E001056664E99DDE87EFAD1536AE1 /* Debug */,
+				D4C128E5BAFE72ADBDC77A16714B4941 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

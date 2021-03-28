@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface CollectionViewCell : UICollectionViewCell
 
+@property (nonatomic, assign) NSInteger indexRow;
+
 @end
 
 NS_ASSUME_NONNULL_END

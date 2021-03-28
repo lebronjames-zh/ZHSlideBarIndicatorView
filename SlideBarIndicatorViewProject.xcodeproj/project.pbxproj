@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07C863F69A8F4846E84EAE32 /* libPods-SlideBarIndicatorViewProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A4A67E50139F9AC60E8D498 /* libPods-SlideBarIndicatorViewProject.a */; };
 		5D25CE8123121F4E001E8531 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D25CE8023121F4E001E8531 /* AppDelegate.m */; };
 		5D25CE8423121F4E001E8531 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D25CE8323121F4E001E8531 /* ViewController.m */; };
 		5D25CE8723121F4E001E8531 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D25CE8523121F4E001E8531 /* Main.storyboard */; };
@@ -15,6 +16,10 @@
 		5D25CE8F23121F50001E8531 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D25CE8E23121F50001E8531 /* main.m */; };
 		5D25CE9923121F50001E8531 /* SlideBarIndicatorViewProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D25CE9823121F50001E8531 /* SlideBarIndicatorViewProjectTests.m */; };
 		5D25CEA423121F50001E8531 /* SlideBarIndicatorViewProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D25CEA323121F50001E8531 /* SlideBarIndicatorViewProjectUITests.m */; };
+		5D25CEB4231221FA001E8531 /* SlideBarIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D25CEB3231221FA001E8531 /* SlideBarIndicatorView.m */; };
+		5D25CEB723122367001E8531 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D25CEB623122367001E8531 /* CollectionViewCell.m */; };
+		5D25CEBA23122998001E8531 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D25CEB923122998001E8531 /* UIColor+Hex.m */; };
+		5D25CEBD23122A6B001E8531 /* UIButton+CenterImageAndTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D25CEBB23122A6B001E8531 /* UIButton+CenterImageAndTitle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A4A67E50139F9AC60E8D498 /* libPods-SlideBarIndicatorViewProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SlideBarIndicatorViewProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D25CE7C23121F4E001E8531 /* SlideBarIndicatorViewProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideBarIndicatorViewProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D25CE7F23121F4E001E8531 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5D25CE8023121F4E001E8531 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +57,16 @@
 		5D25CE9F23121F50001E8531 /* SlideBarIndicatorViewProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideBarIndicatorViewProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D25CEA323121F50001E8531 /* SlideBarIndicatorViewProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlideBarIndicatorViewProjectUITests.m; sourceTree = "<group>"; };
 		5D25CEA523121F50001E8531 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D25CEB2231221FA001E8531 /* SlideBarIndicatorView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlideBarIndicatorView.h; sourceTree = "<group>"; };
+		5D25CEB3231221FA001E8531 /* SlideBarIndicatorView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlideBarIndicatorView.m; sourceTree = "<group>"; };
+		5D25CEB523122366001E8531 /* CollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		5D25CEB623122367001E8531 /* CollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		5D25CEB823122998001E8531 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		5D25CEB923122998001E8531 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		5D25CEBB23122A6B001E8531 /* UIButton+CenterImageAndTitle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CenterImageAndTitle.m"; sourceTree = "<group>"; };
+		5D25CEBC23122A6B001E8531 /* UIButton+CenterImageAndTitle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+CenterImageAndTitle.h"; sourceTree = "<group>"; };
+		7D37395736A9AE2B70B369FF /* Pods-SlideBarIndicatorViewProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlideBarIndicatorViewProject.debug.xcconfig"; path = "Target Support Files/Pods-SlideBarIndicatorViewProject/Pods-SlideBarIndicatorViewProject.debug.xcconfig"; sourceTree = "<group>"; };
+		AC0FAC1DD87A875D79B55A9E /* Pods-SlideBarIndicatorViewProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlideBarIndicatorViewProject.release.xcconfig"; path = "Target Support Files/Pods-SlideBarIndicatorViewProject/Pods-SlideBarIndicatorViewProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07C863F69A8F4846E84EAE32 /* libPods-SlideBarIndicatorViewProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +102,8 @@
 				5D25CE9723121F50001E8531 /* SlideBarIndicatorViewProjectTests */,
 				5D25CEA223121F50001E8531 /* SlideBarIndicatorViewProjectUITests */,
 				5D25CE7D23121F4E001E8531 /* Products */,
+				B7C902257978247251AA35C5 /* Pods */,
+				7426AE82B1344517A2407F00 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +124,13 @@
 				5D25CE8023121F4E001E8531 /* AppDelegate.m */,
 				5D25CE8223121F4E001E8531 /* ViewController.h */,
 				5D25CE8323121F4E001E8531 /* ViewController.m */,
+				5D25CEB523122366001E8531 /* CollectionViewCell.h */,
+				5D25CEB623122367001E8531 /* CollectionViewCell.m */,
+				5D25CEB823122998001E8531 /* UIColor+Hex.h */,
+				5D25CEB923122998001E8531 /* UIColor+Hex.m */,
+				5D25CEBC23122A6B001E8531 /* UIButton+CenterImageAndTitle.h */,
+				5D25CEBB23122A6B001E8531 /* UIButton+CenterImageAndTitle.m */,
+				5D25CEB1231221D1001E8531 /* SlideBarIndicatorView */,
 				5D25CE8523121F4E001E8531 /* Main.storyboard */,
 				5D25CE8823121F50001E8531 /* Assets.xcassets */,
 				5D25CE8A23121F50001E8531 /* LaunchScreen.storyboard */,
@@ -132,6 +158,32 @@
 			path = SlideBarIndicatorViewProjectUITests;
 			sourceTree = "<group>";
 		};
+		5D25CEB1231221D1001E8531 /* SlideBarIndicatorView */ = {
+			isa = PBXGroup;
+			children = (
+				5D25CEB2231221FA001E8531 /* SlideBarIndicatorView.h */,
+				5D25CEB3231221FA001E8531 /* SlideBarIndicatorView.m */,
+			);
+			path = SlideBarIndicatorView;
+			sourceTree = "<group>";
+		};
+		7426AE82B1344517A2407F00 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A4A67E50139F9AC60E8D498 /* libPods-SlideBarIndicatorViewProject.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B7C902257978247251AA35C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D37395736A9AE2B70B369FF /* Pods-SlideBarIndicatorViewProject.debug.xcconfig */,
+				AC0FAC1DD87A875D79B55A9E /* Pods-SlideBarIndicatorViewProject.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +191,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5D25CEA823121F50001E8531 /* Build configuration list for PBXNativeTarget "SlideBarIndicatorViewProject" */;
 			buildPhases = (
+				DB4DCF005653D6C4AE3D0658 /* [CP] Check Pods Manifest.lock */,
 				5D25CE7823121F4E001E8531 /* Sources */,
 				5D25CE7923121F4E001E8531 /* Frameworks */,
 				5D25CE7A23121F4E001E8531 /* Resources */,
@@ -257,11 +310,40 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		DB4DCF005653D6C4AE3D0658 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SlideBarIndicatorViewProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5D25CE7823121F4E001E8531 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D25CEB4231221FA001E8531 /* SlideBarIndicatorView.m in Sources */,
+				5D25CEBA23122998001E8531 /* UIColor+Hex.m in Sources */,
+				5D25CEB723122367001E8531 /* CollectionViewCell.m in Sources */,
+				5D25CEBD23122A6B001E8531 /* UIButton+CenterImageAndTitle.m in Sources */,
 				5D25CE8423121F4E001E8531 /* ViewController.m in Sources */,
 				5D25CE8F23121F50001E8531 /* main.m in Sources */,
 				5D25CE8123121F4E001E8531 /* AppDelegate.m in Sources */,
@@ -433,9 +515,11 @@
 		};
 		5D25CEA923121F50001E8531 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D37395736A9AE2B70B369FF /* Pods-SlideBarIndicatorViewProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8DCM37ULV;
 				INFOPLIST_FILE = SlideBarIndicatorViewProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -449,9 +533,11 @@
 		};
 		5D25CEAA23121F50001E8531 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC0FAC1DD87A875D79B55A9E /* Pods-SlideBarIndicatorViewProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8DCM37ULV;
 				INFOPLIST_FILE = SlideBarIndicatorViewProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
